@@ -1,0 +1,8 @@
+# Prevent committing real mailbox lists / exports
+mailboxes.csv
+*.csv
+!mailboxes.example.csv
+
+# Editor / OS noise
+.vscode/
+*.log
